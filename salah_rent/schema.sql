@@ -16,3 +16,6 @@ CREATE TABLE `users_info` (
 
 INSERT INTO `users` (username, password)
 VALUES ('admin', '1234');
+
+INSERT INTO `users_info` (user_id, nickname)
+VALUES (1, 'Salah');

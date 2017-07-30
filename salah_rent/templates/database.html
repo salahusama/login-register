@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+	<h2>Database</h2>
+	{% if error %}
+		<p class=error><b>Error:</b> {{ error }}
+	{% endif %}
+	<table>
+	{% for user in users %}
+		<tr>
+			<td>{{ user['user_id'] }}</td>
+			<td>{{ user['username'] }}</td>
+			<td>{{ user['password'] }}</td>
+		</tr>
+	{% endfor %}
+{% endblock %}

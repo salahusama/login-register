@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+	<h2>Login</h2>
+	{% if error %}
+		<p class=error><b>Error:</b> {{ error }}
+	{% endif %}
+	<p>Have a good day, {{ user['nickname'] }}!</p>
+	<em>Your userID is <b>{{ user['user_id'] }}</b> in case you were wondering ;)</em>
+{% endblock %}
