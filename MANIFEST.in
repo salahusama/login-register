@@ -1,0 +1,3 @@
+graft salah_rent/templates
+graft salah_rent/static
+include salah_rent/schema.sql

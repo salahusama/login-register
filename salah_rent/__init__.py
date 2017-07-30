@@ -1,0 +1,1 @@
+from .salah_rent import app

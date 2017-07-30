@@ -1,0 +1,9 @@
+MANIFEST.in
+salah_rent/__init__.py
+salah_rent/salah_rent.py
+salah_rent/schema.sql
+salah_rent.egg-info/PKG-INFO
+salah_rent.egg-info/SOURCES.txt
+salah_rent.egg-info/dependency_links.txt
+salah_rent.egg-info/requires.txt
+salah_rent.egg-info/top_level.txt
