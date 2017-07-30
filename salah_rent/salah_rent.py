@@ -8,11 +8,11 @@ app.config.from_object(__name__)
 
 # Configuration
 app.config.update(dict(
-	DATABASE = os.join(app.root_path, 'flask.db')
+	DATABASE = os.path.join(app.root_path, 'flask.db')
 	, SECRET_KEY = 'rent the key'
 ))
 
-app.config.from_envar('FLASKR_SETTINGS', silent=True)
+app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
 # Connect to databse
 def connect_db():
